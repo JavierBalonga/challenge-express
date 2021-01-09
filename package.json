@@ -1,0 +1,20 @@
+{
+  "name": "cp-m2-practice",
+  "version": "1.0.0",
+  "description": "just for practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests/*.spec.js -w"
+  },
+  "author": "JavierBalonga",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.0",
+    "express": "^4.12.4"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "supertest-session": "^3.1.0"
+  }
+}
